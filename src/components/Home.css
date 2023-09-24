@@ -1,0 +1,56 @@
+.text-stroke {
+  color: aliceblue;
+  background-color: transparent; /* Ensure the text is transparent inside the stroke */
+  text-shadow: 0 -40px 100px, 0 0 2px, 0 0 1em #69698d, 0 0 0.5em #4454ff,
+    0 0 0.1em #8c44ff, 0 10px 3px #000000;
+}
+
+.logo {
+  font-weight: 400;
+  color: #fee;
+  text-shadow: 0 -40px 100px, 0 0 2px, 0 0 1em #4744ff, 0 0 0.5em #4454ff,
+    0 0 0.1em #8c44ff, 0 10px 3px #000000;
+}
+.logo span {
+  animation-duration: 1.5s;
+
+  animation: blink ease-in-out  infinite 2.5s;
+}
+.logo span:nth-child(even) {
+
+  animation: blink ease-in-out infinite 3.5s;
+
+  animation-duration: 1.5s;
+}
+@keyframes blink {
+  78% {
+    color: inherit;
+    text-shadow: inherit;
+  }
+  79% {
+    color: #8c44ff;
+  }
+  80% {
+    text-shadow: none;
+  }
+  81% {
+    color: inherit;
+    text-shadow: inherit;
+  }
+  82% {
+    color: #333;
+    text-shadow: none;
+  }
+  83% {
+    color: inherit;
+    text-shadow: inherit;
+  }
+  92% {
+    color: #333;
+    text-shadow: none;
+  }
+  92.5% {
+    color: inherit;
+    text-shadow: inherit;
+  }
+}
