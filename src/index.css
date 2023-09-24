@@ -77,11 +77,12 @@ text-shadow: 0 -40px 100px, 0 0 2px, 0 0 1em #69698d, 0 0 0.5em #4454ff,
     0 0 0.1em #8c44ff, 0 10px 3px #07a0e1;
 }
 .active2{
-transition: all 1s cubic-bezier(0.165, 0.84, 0.44, 1);
+/* transition: all 0.2s ease-in-out; */
+/* transition-delay: 100ms; */
 background-color: #6a36ee;
 text-shadow: 0 -40px 50px, 0 0 2px, 0 0 0.5em #69698d, 0 0 0.5em #826687,
     0 0 0.1em #8c44ffee, 0 2px 6px #39279e;
-    padding: 1px 10px;
+    padding: 1px 4px;
     border-radius: 10px;
     overflow-wrap: break-word;
 }

@@ -1,7 +1,7 @@
 .text-stroke {
   color: aliceblue;
   background-color: transparent; /* Ensure the text is transparent inside the stroke */
-  text-shadow: 0 -40px 100px, 0 0 2px, 0 0 1em #69698d, 0 0 0.5em #4454ff,
+  text-shadow: 0 -20px 100px, 0 0 2px, 0 0 4em #69698d, 0 0 0.5em #4454ff,
     0 0 0.1em #8c44ff, 0 10px 3px #000000;
 }
 

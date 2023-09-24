@@ -7,7 +7,7 @@ const Projects = () => {
 
   return (
     <div
-      className="h-full mx-auto max-w-[1150px] text-white"
+      className="h-full mx-auto max-w-[1000px] text-white"
       id="projects"
       onMouseEnter={() => setactive("projects")}
       onTouchStart={() => setactive("projects")}
@@ -19,7 +19,7 @@ const Projects = () => {
       <div className=" m-auto flex rounded-xl backdrop-blur-sm  bg-blue-300/20  text-white px-2 py-1 z-10 w-fit">
         <ul className="flex items-center justify-center gap-4 text-white mx-auto w-fit py-1 px-4 text-md ">
           <li>
-            <button className={`${prj===""?"active2":""}`} onClick={()=>setproj("")}>All</button>
+            <button className={`${prj===""?"active2":""} `} onClick={()=>setproj("")}>All</button>
           </li>
           <li>
             <button className={`${prj==="full"?"active2":""}`}  onClick={()=>setproj("full")}>Full Stack</button>

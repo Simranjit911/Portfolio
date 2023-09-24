@@ -23,7 +23,7 @@ const Skills = () => {
       onMouseEnter={() => setactive("skills")}
       onTouchStart={() => setactive("skills")}
     >
-      <p className="text-center  text-3xl text-indigo-200 mt-12 md:mt-24">Skills</p>
+      <p className="text-center  text-3xl text-indigo-200 mt-10 md:mt-20">Skills</p>
       <div className="flex flex-col md:flex-row w-[90%] md:[60%] mx-auto mt-10 gap-3">
         {/* div 1 */}
         <div className="mx-auto rounded-md border-2 border-slate-600 px-4 text-center md:px-16 bg-indigo-950 shadow-xl">
