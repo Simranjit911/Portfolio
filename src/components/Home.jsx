@@ -1,6 +1,6 @@
 import { useContext } from "react";
 import MyContext from "../MyContext";
-import {  BsLinkedin } from "react-icons/bs"
+
 
 import "./Home.css";
 import vid from "../assets/video.mp4";

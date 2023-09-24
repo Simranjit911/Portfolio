@@ -1,26 +1,27 @@
-import React, { useContext } from "react";
+import { useContext } from "react";
 import Data from "./Data";
+import "../index.css"
 import MyContext from "../MyContext";
 const Project = () => {
-  let { setproj, prj } = useContext(MyContext);
+  let {  prj } = useContext(MyContext);
 
   return (
-    <div className="grid grid-cols-1 sm:grid-cols-2">
+    <div className="grid grid-cols-1 sm:grid-cols-2 ">
       {Data.filter((d) => {
         return prj.toLowerCase() === "" ? d : d.cat.toLowerCase().includes(prj);
       }).map((d, id) => {
         return (
           // main div
           <div key={id}
-            className="px-2 bg-indigo-950 pt-4 flex flex-col md:relative  m-6 h-fit md:h-[350px] lg:h-[300px]  rounded-lg ">
+            className="px-2 bg-indigo-950  pt-4 btn flex flex-col md:relative  m-6 h-fit md:h-[355px] lg:h-[350px]  rounded-lg ">
               {/* Image Div */}
-            <div className="overflow-hidden cursor-pointer rounded-lg  min-h-[60%]">
+            <div className="overflow-hidden cursor-pointer rounded-lg h-[50%] lg:h-[60%]">
               <img src={d.img}
                 alt="text"
-                className="rounded-lg hover:scale-110 w-full h-full duration-100 object-center"/>
+                className="rounded-lg hover:scale-110 h-full lg:h-fit duration-100 object-center"/>
             </div>
             {/* Details */}
-            <div className="flex gap-1 flex-col ">
+            <div className="flex gap-1 flex-col">
               <p className="text-md md:text-lg active2 px-1 py-0 font-medium ">{d.title}</p>
               <p className="font-normal text-md ms:text-lg px-1">{d.Description}</p>
               <div className="flex gap-1 flex-wrap">
