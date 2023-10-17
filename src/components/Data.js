@@ -76,7 +76,7 @@ const Data=[
         title:"Progress/Kanban Board",
         img:kn,
         cat:"front",
-        link:"https://react-weather-app-sage-nu.vercel.app/",
+        link:"https://react-kanban-board-ashy.vercel.app",
         git:"https://github.com/Simranjit911/React-Kanban-Board",
         Description:"ReactJs Kanban Board/Task Management App with Drag and Drop",
         tech:["React","Tailwind","DND","LocalStorage"]
