@@ -1,8 +1,11 @@
-import { useContext } from "react";
+import { useContext, } from "react";
 import MyContext from "../MyContext";
+
+import img1 from "../assets/projectsImages/img2.jpg";
 
 const About = () => {
   let { setactive } = useContext(MyContext);
+
   return (
     <div
       id="about"
@@ -13,16 +16,21 @@ const About = () => {
       <div>
         <p className="text-center text-indigo-200 text-3xl 	mb-10">About</p>
         <div className="flex ">
-          {/* <div className="w-48">
-          <img src={img} alt="" />
-          </div> */}
           <div className="w-[85%] md:w-[65%] mx-auto text-left tracking-wide text-lg font-extralight flex flex-col gap-5">
+            <img
+              src={img1}
+              alt=""
+              className="md:w-[40%] w-[75%] duration-300 ease-in-out grayscale hover:grayscale-0 shadow-xl rounded-md flex items-center justify-center mx-auto"
+            />
+
             <p className="">
               Hello there! I'm{" "}
               <strong className="font-bold">Simranjit Singh</strong> , a
               passionate self taught React JS developer hailing from the vibrant
               tech hub of India. 🇮🇳 Currently, I'm cruising through the
-              exhilarating journey of my <strong>Bachelors in Computer Applications,</strong> already in my third year. 🎓
+              exhilarating journey of my{" "}
+              <strong>Bachelors in Computer Applications,</strong> already in my
+              third year. 🎓
             </p>
 
             <p>
@@ -39,7 +47,10 @@ const About = () => {
               endless, and the next big project is just a line of code away!
               🌐💼✨
             </p>
-            <a href="#contact" className="bg-indigo-400 delay-100 text-stroke mt-2 border border-transparent text font-light hover:bg-transparent hover:border  w-fit mx-auto text-black px-4 rounded-md  hover:text-indigo-500 hover:border-indigo-500 duration-100 ">
+            <a
+              href="#contact"
+              className="bg-indigo-400 delay-100 text-stroke mt-2 border border-transparent text font-light hover:bg-transparent hover:border  w-fit mx-auto text-black px-4 rounded-md  hover:text-indigo-500 hover:border-indigo-500 duration-100 "
+            >
               Contact Now
             </a>
           </div>

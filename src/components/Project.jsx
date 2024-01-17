@@ -22,7 +22,7 @@ const Project = () => {
             </div>
             {/* Details */}
             <div className="flex gap-1 flex-col">
-              <p className="text-md md:text-lg active2 px-1 py-0 font-medium ">{d.title}</p>
+              <p className="text-md md:text-lg active3 px-1 py-0 font-medium ">{d.title}</p>
               <p className="font-normal text-md ms:text-lg px-1">{d.Description}</p>
               <div className="flex gap-1 flex-wrap">
               {d.tech.map((d, id) => {

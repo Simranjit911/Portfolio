@@ -77,8 +77,6 @@ text-shadow: 0 -40px 100px, 0 0 2px, 0 0 1em #69698d, 0 0 0.5em #4454ff,
     0 0 0.1em #8c44ff, 0 10px 3px #07a0e1;
 }
 .active2{
-/* transition: all 0.2s ease-in-out; */
-/* transition-delay: 100ms; */
 background-color: #6a36ee;
 text-shadow: 0 -40px 50px, 0 0 2px, 0 0 0.5em #69698d, 0 0 0.5em #826687,
     0 0 0.1em #8c44ffee, 0 2px 6px #39279e;
@@ -86,21 +84,15 @@ text-shadow: 0 -40px 50px, 0 0 2px, 0 0 0.5em #69698d, 0 0 0.5em #826687,
     border-radius: 10px;
     overflow-wrap: break-word;
 }
-@layer base {
-  /* body {
-    @apply font-secondary text-lg leading-8 text-white;
-  } */
-  .h2 {
-    @apply font-primary text-[32px] mb-6 tracking-[10%] uppercase;
-  }
-  .h3 {
-    @apply font-primary font-semibold text-[26px] mb-6 leading-[46px];
-  }
+.active3{
+/* transition: all 0.2s ease-in-out; */
+/* transition-delay: 100ms; */
 
-  .text-gradient {
-    @apply bg-gradient-to-r text-transparent bg-clip-text from-[#42A6E3] to-[#FF56F6] font-bold font-primary hover:from-[#FF56F6] hover:to-[#42A6E3];
-  }
-  .section {
-    @apply py-8 lg:py-24 lg:h-screen flex items-center;
-  }
+background-color: #6a36ee;
+text-shadow: 3px 3px 75px , 0 0 1px , 0 0 0.5em #69698d, 0 0 0.5em #826687f0,
+    0 0 0.1em #8c44ffee, 0 2px 6px #39279e;
+    padding: 1px 4px;
+    border-radius: 10px;
+    overflow-wrap: break-word;
 }
+

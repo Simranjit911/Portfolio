@@ -11,6 +11,8 @@ import trav from "../assets/projectsImages/trav.jpg"
 import red from "../assets/projectsImages/redstore.jpg"
 import usab from "../assets/projectsImages/usab.jpg"
 import ecomcart from "../assets/projectsImages/ecomcart.jpg"
+import cryptoScreener  from "../assets/projectsImages/cr3.jpg"
+import taskManager from "../assets/projectsImages/taskMan3.jpg"
 const Data=[
     {
         title:"NoteSync.com",
@@ -40,6 +42,26 @@ const Data=[
         git:"https://github.com/Simranjit911/Mern-crud-app-frontend",
         Description:"A MERN stack User Management App with CRUD Functionalities",
         tech:["MongoDB","Express","React","Nodejs","Tailwind"]
+
+    },
+    {
+        title:"Crypto Screener",
+        img:cryptoScreener,
+        cat:"front",
+        link:"https://crypto-sceener.vercel.app/",
+        git:"https://github.com/Simranjit911/Crypto-Sceener",
+        Description:"A  crypto currency app which is used to get crypto data",
+        tech:["React","Context Api","Tailwind","ReChartsJs"]
+
+    },
+    {
+        title:"Task Management App",
+        img:taskManager,
+        cat:"front",
+        link:"https://task-manager-redux-toolkit.vercel.app/",
+        git:"https://github.com/Simranjit911/Task-Manager-React-Redux-Toolkit",
+        Description:"A React,RTK Task Manager App with CRUD Functionalities",
+        tech:["React","Redux Toolkit","Tailwind"]
 
     },
     {

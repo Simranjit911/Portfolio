@@ -73,7 +73,7 @@ const Contact = () => {
             <HiOutlineLocationMarker />
             Punjab,India
           </a>
-          <p className="text-center my-4 mb-3 hidden md:block hover:scale-105 duration-100 text-stroke">Simranjit Singh | © 2023</p>
+          <p className="text-center my-4 mb-3 hidden md:block hover:scale-105 duration-100 text-stroke">Simranjit Singh | © 2024</p>
         </div>
         <div className="mx-auto flex-1  p-3">
           <form className="flex flex-col gap-3 " onSubmit={handleSubmit}>
@@ -109,7 +109,7 @@ const Contact = () => {
         </div>
              
       </div>
-          <p className="text-center mt-2 mb-12 md:hidden block">Simranjit Singh | © 2023</p>
+          <p className="text-center mt-2 mb-12 md:hidden block">Simranjit Singh | © 2024</p>
     </div>
   );
 };
